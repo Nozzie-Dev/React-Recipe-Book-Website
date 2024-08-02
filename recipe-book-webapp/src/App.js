@@ -25,6 +25,40 @@ function App() {
       prepTime: "5 minutes plus 1 day for fermenting",
       cookTime: "20 minutes",
       serves: "6",
+      image: ""  ,
+    
+    },
+    {
+      id: 3,
+      title: "Classic Beef Burger",
+      shortDescription: "A juicy and flavorful beef burger.",
+      ingredients: ["500g ground beef", "1 teaspoon salt", "1/2 teaspoon black pepper", "4 burger buns", "4 slices of cheddar cheese", "Lettuce, tomato, onion, and pickles for toppings", "Ketchup and mustard"],
+      steps: ["Preheat the grill to medium-high heat.", "In a bowl, mix the ground beef with salt and pepper.", "Form the mixture into 4 patties.", "Grill the patties for 4-5 minutes per side, or until cooked to your liking.", "Place a slice of cheddar cheese on each patty during the last minute of cooking.", "Toast the burger buns on the grill for about 1 minute.", "Assemble the burgers with lettuce, tomato, onion, pickles, ketchup, and mustard."],
+      prepTime: "10 minutes",
+      cookTime: "10 minutes",
+      serves: "4",
+      image: ""
+    },
+    {
+      id: 4,
+      title: "Chicken Burger",
+      shortDescription: "A delicious chicken burger with a crispy coating.",
+      ingredients: ["500g ground chicken", "1 egg", "1/2 cup breadcrumbs", "1 teaspoon garlic powder", "1/2 teaspoon paprika", "Salt and pepper to taste", "4 burger buns", "4 slices of mozzarella cheese", "Lettuce, tomato, and mayonnaise for toppings"],
+      steps: ["In a bowl, combine the ground chicken, egg, breadcrumbs, garlic powder, paprika, salt, and pepper.", "Form the mixture into 4 patties.", "Heat some oil in a pan over medium heat.", "Cook the patties for 5-6 minutes per side, or until golden and cooked through.", "Place a slice of mozzarella cheese on each patty during the last minute of cooking.", "Toast the burger buns in the pan for about 1 minute.", "Assemble the burgers with lettuce, tomato, and mayonnaise."],
+      prepTime: "15 minutes",
+      cookTime: "12 minutes",
+      serves: "4",
+      image: ""
+    },
+    {
+      id: 5,
+      title: "Veggie Burger",
+      shortDescription: "A healthy and tasty veggie burger.",
+      ingredients: ["1 can (400g) black beans, drained and rinsed", "1/2 cup breadcrumbs", "1/2 cup grated carrot", "1/4 cup chopped onion", "1 teaspoon cumin", "1/2 teaspoon garlic powder", "Salt and pepper to taste", "4 burger buns", "4 slices of Swiss cheese", "Lettuce, tomato, avocado, and spicy mayo for toppings"],
+      steps: ["In a bowl, mash the black beans with a fork.", "Add the breadcrumbs, grated carrot, chopped onion, cumin, garlic powder, salt, and pepper. Mix well.", "Form the mixture into 4 patties.", "Heat some oil in a pan over medium heat.", "Cook the patties for 4-5 minutes per side, or until golden and crispy.", "Place a slice of Swiss cheese on each patty during the last minute of cooking.", "Toast the burger buns in the pan for about 1 minute.", "Assemble the burgers with lettuce, tomato, avocado, and spicy mayo."],
+      prepTime: "15 minutes",
+      cookTime: "10 minutes",
+      serves: "4",
       image: ""
     }
   ]);

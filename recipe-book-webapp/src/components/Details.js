@@ -25,7 +25,7 @@ const Details = ({ recipes }) => {
           <li key={index}>{step}</li>
         ))}
       </ol>
-      <Link to="/">Back to Recipes List</Link>
+      <Link to="/"><button>Back to Recipes List</button></Link>
       {/* Can we add previous/next button here that allows to switch between recipes without returning to the list? */}
     </div>
   );
