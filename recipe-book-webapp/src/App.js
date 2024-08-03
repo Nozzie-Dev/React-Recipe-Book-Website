@@ -14,7 +14,7 @@ function App() {
       steps: ["Combine the mango puree, mango essence and condenced milk.","In a seperate bowl, whip the cream till soft peaks form, about 3 minutes.","Fold the condensed-milk mixture into the whipped cream.","Pour into freezer-safe dish and cover tightly with cling wrap. Freeze for at least 5 hours or overnight."],
       prepTime: "15 minutes plus 5 hours or overnight in freezer.",
       serves: "4 cups (1l)",
-      image: "./images/Mango-Ice-Cream.jpg"
+      image: ""
     },
     {
       id: 2,
