@@ -7,6 +7,9 @@ body{
   background-color: peachpuff;
   font-family: "Courgette", cursive;
 }
+.text-slanted{
+  font-family: "Courgette", cursive;
+}
 
 
 .text-orange{
@@ -16,3 +19,4 @@ body{
 .letter-spacing{
   letter-spacing: 0.5rem;
 }
+

@@ -1,12 +1,20 @@
 // Home.js
-import React from 'react';
+import React, { Component } from 'react';
+import Header from '../components/Header'
+import {link} from 'react-router-dom'
+export default class Home extends Component{
+  render() {
+    return (
+    <Header title= "Delicious Recipes">
+     
+    </Header>
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
-  );
-};
+    
+    );
+  } 
+}
 
-export default Home;
+
+
+ 
+
