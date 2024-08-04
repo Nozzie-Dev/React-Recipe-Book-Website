@@ -1,7 +1,11 @@
 // src/pages/Category.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
+<<<<<<< HEAD
 import { recipes } from '../allrecipes';
+=======
+import { recipes } from './Recipes';
+>>>>>>> 292ac98533e04adc8e88cea7de0726c98659adeb
 import './Category.css'; // Import custom CSS for styling
 
 const Category = () => {
