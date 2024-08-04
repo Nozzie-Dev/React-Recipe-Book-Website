@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MyNavbar from './Navbar';
-import Home from './components/Home';
 import Recipes from './components/Recipes';
 import Details from './components/Details';
+import MyNavbar from './Navbar';
+import Home from './components/Home';
+import Category from './components/Category';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 const App = () => {
   const [recipes] = useState([
@@ -49,7 +52,7 @@ const App = () => {
       cookTime: "12 minutes",
       serves: "4",
     },
-  {
+    {
       id: 5,
       title: "Veggie Burger",
       shortDescription: "A healthy and tasty veggie burger.",
@@ -66,7 +69,7 @@ const App = () => {
     <Router>
       <MyNavbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home recipes={recipes} />} />
         <Route path="/recipes" element={<Recipes recipes={recipes} />} />
         <Route path="/recipe/:id" element={<Details recipes={recipes} />} />
         <Route path="/category/:categoryName" element={<Category />} />
@@ -76,4 +79,3 @@ const App = () => {
 }
 
 export default App;
-
