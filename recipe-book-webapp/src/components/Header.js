@@ -1,6 +1,12 @@
 import React from 'react';
 
 export default function Header({children,title,styleClass}) {
+    const Header = async () =>{
+        const get = await fetch('allrecipes');
+        const jsonData = await get.json()
+
+        console.log(jsonData.allrecipes);
+    }
     return(
         <header>
             <div className="container-fluid">
@@ -10,7 +16,7 @@ export default function Header({children,title,styleClass}) {
                         <div className='container'>
         <div className='searchBar'>
           <input type='text' placeholder='Recipe'/>
-          <button>search</button>
+          <button onClick={Header}>search</button>
         </div>
         <div>
           
