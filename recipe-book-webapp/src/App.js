@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Recipes from './components/Recipes';
 import Details from './components/Details';
@@ -15,9 +15,10 @@ const App = () => {
       title: "Mango Ice-Cream",
       shortDescription: "Mango ice cream is creamy and sweet combined with the great texture of mangoes. Made from sweet mango pulp",
       ingredients: ["3 mangoes, peeled and pureed", "1 teaspoon (5ml) mango essence", "1 tin condensed milk", "1.5 cups (375 ml) fresh cream, chilled"],
-      steps: ["Combine the mango puree, mango essence and condenced milk.","In a seperate bowl, whip the cream till soft peaks form, about 3 minutes.","Fold the condensed-milk mixture into the whipped cream.","Pour into freezer-safe dish and cover tightly with cling wrap. Freeze for at least 5 hours or overnight."],
+      steps: ["Combine the mango puree, mango essence and condensed milk.","In a separate bowl, whip the cream till soft peaks form, about 3 minutes.","Fold the condensed-milk mixture into the whipped cream.","Pour into freezer-safe dish and cover tightly with cling wrap. Freeze for at least 5 hours or overnight."],
       prepTime: "15 minutes plus 5 hours or overnight in freezer.",
       serves: "4 cups (1l)",
+      category: "desserts",
       image: ""
     },
     {
@@ -29,6 +30,7 @@ const App = () => {
       prepTime: "5 minutes plus 1 day for fermenting",
       cookTime: "20 minutes",
       serves: "6",
+      category: "appetizers",
       image: ""
     },
     {
@@ -40,6 +42,7 @@ const App = () => {
       prepTime: "10 minutes",
       cookTime: "10 minutes",
       serves: "4",
+      category: "main-course",
       image: ""
     },
     {
@@ -51,6 +54,7 @@ const App = () => {
       prepTime: "15 minutes",
       cookTime: "12 minutes",
       serves: "4",
+      category: "main-course",
     },
     {
       id: 5,
@@ -61,6 +65,7 @@ const App = () => {
       prepTime: "15 minutes",
       cookTime: "10 minutes",
       serves: "4",
+      category: "main-course",
       image: "logo192.png"
     }
   ]);
@@ -72,7 +77,7 @@ const App = () => {
         <Route path="/" element={<Home recipes={recipes} />} />
         <Route path="/recipes" element={<Recipes recipes={recipes} />} />
         <Route path="/recipe/:id" element={<Details recipes={recipes} />} />
-        <Route path="/category/:categoryName" element={<Category />} />
+        <Route path="/category/:categoryName" element={<Category recipes={recipes} />} />
       </Routes>
     </Router>
   );

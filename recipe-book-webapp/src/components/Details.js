@@ -9,6 +9,10 @@ const Details = ({ recipes }) => {
     return <p>Recipe not found!</p>;
   }
 
+  const currentIndex = recipes.findIndex(r => r.id === parseInt(id));
+  const previousRecipe = recipes[currentIndex - 1];
+  const nextRecipe = recipes[currentIndex + 1];
+
   return (
     <div>
       <h1>{recipe.title}</h1>
@@ -26,7 +30,10 @@ const Details = ({ recipes }) => {
         ))}
       </ol>
       <Link to="/"><button>Back to Recipes List</button></Link>
-      {/* Can we add previous/next button here that allows to switch between recipes without returning to the list? */}
+      <div>
+        {previousRecipe && <Link to={`/recipe/${previousRecipe.id}`}><button>Previous</button></Link>}
+        {nextRecipe && <Link to={`/recipe/${nextRecipe.id}`}><button>Next</button></Link>}
+      </div>
     </div>
   );
 };

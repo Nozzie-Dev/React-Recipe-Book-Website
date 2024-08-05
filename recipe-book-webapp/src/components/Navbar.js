@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const MyNavbar = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg"> {/* bg-dark and variant-dark for dark background */}
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">Recipe Book</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

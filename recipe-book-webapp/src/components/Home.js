@@ -1,19 +1,10 @@
-// Home.js
 import React, { Component } from 'react';
-import Header from '../components/Header'
+import Header from './Header';
 
-export default class Home extends Component{
+export default class Home extends Component {
   render() {
     return (
-    <Header title= "Delicious Recipes">
-     
-    </Header>
-      
+      <Header title="Delicious Recipes" recipes={this.props.recipes} />
     );
-  } 
+  }
 }
-
-
-
- 
-

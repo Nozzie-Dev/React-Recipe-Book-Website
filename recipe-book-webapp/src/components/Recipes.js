@@ -10,13 +10,15 @@ const Recipes = ({ recipes }) => {
           <li key={recipe.id}>
             <h2>{recipe.title}</h2>
             <p>{recipe.shortDescription}</p>
-            {/* Is it neccessary to add headings to these */}
+            <h4>Prep Time</h4>
             <p>{recipe.prepTime}</p>
+            <h4>Serves</h4>
             <p>{recipe.serves}</p>
+            <h4>Cook Time</h4>
             <p>{recipe.cookTime}</p>
             <Link to={`/recipe/${recipe.id}`}>
-            <button>View Recipe</button>
-          </Link>
+              <button>View Recipe</button>
+            </Link>
           </li>
         ))}
       </ul>

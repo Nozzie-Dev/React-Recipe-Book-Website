@@ -1,30 +1,26 @@
-// src/pages/Category.js
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { recipes } from '../allrecipes';
-import './Category.css'; // Import custom CSS for styling
+import { useParams, Link } from 'react-router-dom';
 
-const Category = () => {
+const Category = ({ recipes }) => {
   const { categoryName } = useParams();
-  const categoryRecipes = recipes[categoryName] || [];
+  const filteredRecipes = recipes.filter(recipe => recipe.category === categoryName);
 
   return (
     <div>
       <h1>{categoryName.charAt(0).toUpperCase() + categoryName.slice(1)} Recipes</h1>
-      <div className="recipes-container">
-        {categoryRecipes.map(recipe => (
-          <div key={recipe.id} className="recipe-card">
-            <h2>{recipe.name}</h2>
-            <img src={recipe.image} alt={recipe.name} className="recipe-image" />
-            <p>{recipe.description}</p>
-            <h3>Instructions:</h3>
-            <p>{recipe.instructions}</p>
-          </div>
+      <ul>
+        {filteredRecipes.map(recipe => (
+          <li key={recipe.id}>
+            <h2>{recipe.title}</h2>
+            <p>{recipe.shortDescription}</p>
+            <Link to={`/recipe/${recipe.id}`}>
+              <button>View Recipe</button>
+            </Link>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };
 
 export default Category;
-
