@@ -16,7 +16,7 @@ const Category = ({ recipes }) => {
         {filteredRecipes.map(recipe => (
           <div key={recipe.id} className="recipe-card">
             <div className="recipe-card-content">
-              <img src={recipe.image} className="recipe-image" alt={recipe.title} />
+              <img src={recipe.image} className="recipe-bgImage" alt={recipe.title} />
               <div className="recipe-text-overlay">
                 <h2 className="card-title">{recipe.title}</h2>
                 <p className="card-text">{recipe.shortDescription}</p>
