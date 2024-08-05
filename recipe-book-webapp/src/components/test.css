@@ -1,6 +1,8 @@
 .main{
-    background-image: url('../images/veggie.jpg');
+    background-image: url('../images/cover.webp');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    
 }
