@@ -7,7 +7,9 @@ import Home from './components/Home';
 import Category from './components/Category';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import first from '../src/images/beef-burger.jpg'
+import mangoIceCream from '../src/images/Mango-Ice-Cream.jpg'
+import porridge from '../src/images/mabele.jpg'
+
 
 const App = () => {
   const [recipes] = useState([
@@ -20,7 +22,7 @@ const App = () => {
       prepTime: "15 minutes plus 5 hours or overnight in freezer.",
       serves: "4 cups (1l)",
       category: "desserts",
-      image: ""
+      image: mangoIceCream
     },
     {
       id: 2,
@@ -32,7 +34,7 @@ const App = () => {
       cookTime: "20 minutes",
       serves: "6",
       category: "appetizers",
-      image: ""
+      image: porridge
     },
     {
       id: 3,
@@ -454,7 +456,6 @@ const App = () => {
         <Route path="/recipe/:id" element={<Details recipes={recipes} />} />
         <Route path="/category/:categoryName" element={<Category recipes={recipes} />} />
       </Routes>
-      <img src={first} alt="My Image" />
     </Router>
   );
 }
