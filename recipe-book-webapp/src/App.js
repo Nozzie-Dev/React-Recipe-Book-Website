@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Recipes from './components/Recipes';
 import Details from './components/Details';
-import MyNavbar from './Navbar';
+import MyNavbar from './components/Navbar';
 import Home from './components/Home';
 import Category from './components/Category';
 import 'bootstrap/dist/css/bootstrap.min.css';
