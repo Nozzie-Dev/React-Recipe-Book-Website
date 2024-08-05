@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Category from './components/Category';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import first from '../src/images/beef-burger.jpg'
 
 const App = () => {
   const [recipes] = useState([
@@ -453,6 +454,7 @@ const App = () => {
         <Route path="/recipe/:id" element={<Details recipes={recipes} />} />
         <Route path="/category/:categoryName" element={<Category recipes={recipes} />} />
       </Routes>
+      <img src={first} alt="My Image" />
     </Router>
   );
 }
