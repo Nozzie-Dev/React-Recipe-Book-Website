@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { FaEye } from 'react-icons/fa';
-import './Category.css'; 
+
 
 const Category = ({ recipes }) => {
   const { categoryName } = useParams();

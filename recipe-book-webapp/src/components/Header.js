@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; 
 
 export default function Header({ children, title, styleClass, recipes }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -31,7 +30,7 @@ export default function Header({ children, title, styleClass, recipes }) {
               <div>
                 <ul className='no-bullet'>
                   {filteredRecipes.map(recipe => (
-                    <li key={recipe.id} className='recipe-item'>
+                    <li key={recipe.id} className='recipe-item col-md-3'>
                       {recipe.image && (
                         <img src={recipe.image} alt={recipe.title} className='recipe-image' />
                       )}
