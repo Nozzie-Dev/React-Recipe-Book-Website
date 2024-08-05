@@ -7,8 +7,26 @@ import Home from './components/Home';
 import Category from './components/Category';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import mangoIceCream from '../src/images/Mango-Ice-Cream.jpg'
-import porridge from '../src/images/mabele.jpg'
+import mangoIceCream from '../src/images/Mango-Ice-Cream.jpg';
+import porridge from '../src/images/mabele.jpg';
+import applePie from '../src/images/pexels-apple-pie.jpg';
+import chocCake from '../src/images/pexels-chocolate-cake.jpg';
+import cheeseCake from '../src/images/pexels-cheescake.jpg';
+import beef from '../src/images/pexels-beef.jpg';
+import bBurger from '../src/images/pexels-beef-burger.jpg';
+import cBurger from '../src/images/pexels-chicken-burger.jpg';
+import vBurger from '../src/images/pexels-veggie-burger.jpg';
+import brownies from '../src/images/pexels-brownies.jpg';
+import deviledEggs from '../src/images/pexels-deivled-eggs.jpg';
+import garlic from '../src/images/pexels-garlic-knots.jpg';
+import iceCream from '../src/images/pexels-ice-cream.jpg';
+import chicken from '../src/images/pexels-grilled-chicken.jpg';
+import tacos from '../src/images/pexels-tacos.jpg';
+import skewer from '../src/images/pexels-skewers.jpg';
+import veggies from '../src/images/pexels-stir-fry.jpg';
+import mushrooms from '../src/images/pexels-stuffed-mushrooms.jpg';
+import spaghetti from '../src/images/pexels-spaghetti.jpg';
+import bruschetta from '../src/images/pexels-bruschetta.jpg';
 
 
 
@@ -47,7 +65,11 @@ const App = () => {
       cookTime: "10 minutes",
       serves: "4",
       category: "main-course",
+<<<<<<< HEAD
       image: "beef-burger.jpg"
+=======
+      image: bBurger
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
     },
     {
       id: 4,
@@ -59,7 +81,11 @@ const App = () => {
       cookTime: "12 minutes",
       serves: "4",
       category: "main-course",
+<<<<<<< HEAD
       image: "chicken-burger.jpg"
+=======
+      image: cBurger
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
     },
     {
       id: 5,
@@ -71,7 +97,11 @@ const App = () => {
       cookTime: "10 minutes",
       serves: "4",
       category: "main-course",
+<<<<<<< HEAD
       image: "VeggieBurger.jpg"
+=======
+      image: vBurger
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
     }, 
     { id: 6,
     title: "Bruschetta", 
@@ -96,7 +126,11 @@ const App = () => {
     cookTime: "10 minutes",
     serves: "4",
     category: "appetizers",
+<<<<<<< HEAD
     image: "download.jpg"
+=======
+    image: bruschetta
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 7,
@@ -121,7 +155,7 @@ const App = () => {
     cookTime: "20 minutes",
     serves: "4",
     category: "appetizers",
-    image: "/Mushroom.jpg"
+    image: mushrooms
   },
   { 
     id: 8,
@@ -146,7 +180,11 @@ const App = () => {
     cookTime: "10 minutes",
     serves: "6",
     category: "appetizers",
+<<<<<<< HEAD
     image: "Eggs.jpg"
+=======
+    image: deviledEggs
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 9,
@@ -170,7 +208,11 @@ const App = () => {
     cookTime: "15 minutes",
     serves: "12",
     category: "appetizers",
+<<<<<<< HEAD
     image: "Garlic-Knots.jpg"
+=======
+    image: garlic
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 10,
@@ -190,7 +232,11 @@ const App = () => {
     cookTime: "0 minutes",
     serves: "20",
     category: "appetizers",
+<<<<<<< HEAD
     image: "CapreseSkewers.jpg"
+=======
+    image: skewer
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 11,
@@ -215,7 +261,11 @@ const App = () => {
     cookTime: "20 minutes",
     serves: "4",
     category: "mainCourse",
+<<<<<<< HEAD
     image: "spaghetti.jpg"
+=======
+    image: spaghetti
+>>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 12,
@@ -237,7 +287,7 @@ const App = () => {
     cookTime: "15 minutes",
     serves: "4",
     category: "mainCourse",
-    image: "path_to_grilled_chicken_image.jpg"
+    image: chicken
   },
   { 
     id: 13,
@@ -265,7 +315,7 @@ const App = () => {
     cookTime: "30 minutes",
     serves: "4",
     category: "mainCourse",
-    image: "path_to_beef_stroganoff_image.jpg"
+    image: beef
   },
   { 
     id: 14,
@@ -292,7 +342,7 @@ const App = () => {
     cookTime: "10 minutes",
     serves: "4",
     category: "mainCourse",
-    image: "path_to_vegetable_stir_fry_image.jpg"
+    image: veggies
   },
   { 
     id: 15,
@@ -315,7 +365,7 @@ const App = () => {
     cookTime: "15 minutes",
     serves: "4",
     category: "mainCourse",
-    image: "path_to_tacos_image.jpg"
+    image: tacos
   },
   { 
     id: 16,
@@ -346,7 +396,7 @@ const App = () => {
     cookTime: "35 minutes",
     serves: "8",
     category: "desserts",
-    image: "path_to_chocolate_cake_image.jpg"
+    image: chocCake
   },
   { 
     id: 17,
@@ -372,7 +422,7 @@ const App = () => {
     cookTime: "50 minutes",
     serves: "8",
     category: "desserts",
-    image: "path_to_apple_pie_image.jpg"
+    image: applePie
   },
   { 
     id: 18,
@@ -398,7 +448,7 @@ const App = () => {
     cookTime: "60 minutes",
     serves: "8",
     category: "desserts",
-    image: "path_to_cheesecake_image.jpg"
+    image: cheeseCake
   },
   { 
     id: 19,
@@ -425,7 +475,7 @@ const App = () => {
     cookTime: "25 minutes",
     serves: "16",
     category: "desserts",
-    image: "path_to_brownies_image.jpg"
+    image: brownies
   },
   { 
     id: 20,
@@ -446,7 +496,7 @@ const App = () => {
     cookTime: "0 minutes (plus churning and freezing time)",
     serves: "4",
     category: "desserts",
-    image: "path_to_ice_cream_image.jpg"
+    image: iceCream
   }
     
   ]);
