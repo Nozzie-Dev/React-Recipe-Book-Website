@@ -11,6 +11,7 @@ import mangoIceCream from '../src/images/Mango-Ice-Cream.jpg'
 import porridge from '../src/images/mabele.jpg'
 
 
+
 const App = () => {
   const [recipes] = useState([
     {
@@ -46,7 +47,7 @@ const App = () => {
       cookTime: "10 minutes",
       serves: "4",
       category: "main-course",
-      image: ""
+      image: "beef-burger.jpg"
     },
     {
       id: 4,
@@ -58,6 +59,7 @@ const App = () => {
       cookTime: "12 minutes",
       serves: "4",
       category: "main-course",
+      image: "chicken-burger.jpg"
     },
     {
       id: 5,
@@ -69,7 +71,7 @@ const App = () => {
       cookTime: "10 minutes",
       serves: "4",
       category: "main-course",
-      image: "logo192.png"
+      image: "VeggieBurger.jpg"
     }, 
     { id: 6,
     title: "Bruschetta", 
@@ -81,7 +83,9 @@ const App = () => {
       "2 cloves garlic",
       "1/4 cup olive oil",
       "Salt and pepper to taste"
+      
     ],
+  
     steps: [
       "Toast the bread.",
       "Top with diced tomatoes and chopped basil.",
@@ -92,7 +96,7 @@ const App = () => {
     cookTime: "10 minutes",
     serves: "4",
     category: "appetizers",
-    image: "path_to_bruschetta_image.jpg"
+    image: "download.jpg"
   },
   { 
     id: 7,
@@ -142,7 +146,7 @@ const App = () => {
     cookTime: "10 minutes",
     serves: "6",
     category: "appetizers",
-    image: "path_to_deviled_eggs_image.jpg"
+    image: "Eggs.jpg"
   },
   { 
     id: 9,
@@ -166,7 +170,7 @@ const App = () => {
     cookTime: "15 minutes",
     serves: "12",
     category: "appetizers",
-    image: "path_to_garlic_knots_image.jpg"
+    image: "Garlic-Knots.jpg"
   },
   { 
     id: 10,
@@ -186,7 +190,7 @@ const App = () => {
     cookTime: "0 minutes",
     serves: "20",
     category: "appetizers",
-    image: "path_to_caprese_skewers_image.jpg"
+    image: "CapreseSkewers.jpg"
   },
   { 
     id: 11,
@@ -211,7 +215,7 @@ const App = () => {
     cookTime: "20 minutes",
     serves: "4",
     category: "mainCourse",
-    image: "path_to_spaghetti_carbonara_image.jpg"
+    image: "spaghetti.jpg"
   },
   { 
     id: 12,
