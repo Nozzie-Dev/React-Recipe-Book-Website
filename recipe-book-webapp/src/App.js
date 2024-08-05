@@ -42,6 +42,7 @@ const App = () => {
       serves: "4 cups (1l)",
       category: "desserts",
       image: mangoIceCream
+    
     },
     {
       id: 2,
@@ -65,11 +66,7 @@ const App = () => {
       cookTime: "10 minutes",
       serves: "4",
       category: "main-course",
-<<<<<<< HEAD
-      image: "beef-burger.jpg"
-=======
       image: bBurger
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
     },
     {
       id: 4,
@@ -81,11 +78,7 @@ const App = () => {
       cookTime: "12 minutes",
       serves: "4",
       category: "main-course",
-<<<<<<< HEAD
-      image: "chicken-burger.jpg"
-=======
       image: cBurger
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
     },
     {
       id: 5,
@@ -97,11 +90,7 @@ const App = () => {
       cookTime: "10 minutes",
       serves: "4",
       category: "main-course",
-<<<<<<< HEAD
-      image: "VeggieBurger.jpg"
-=======
       image: vBurger
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
     }, 
     { id: 6,
     title: "Bruschetta", 
@@ -126,11 +115,7 @@ const App = () => {
     cookTime: "10 minutes",
     serves: "4",
     category: "appetizers",
-<<<<<<< HEAD
-    image: "download.jpg"
-=======
     image: bruschetta
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 7,
@@ -180,11 +165,7 @@ const App = () => {
     cookTime: "10 minutes",
     serves: "6",
     category: "appetizers",
-<<<<<<< HEAD
-    image: "Eggs.jpg"
-=======
     image: deviledEggs
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 9,
@@ -208,11 +189,7 @@ const App = () => {
     cookTime: "15 minutes",
     serves: "12",
     category: "appetizers",
-<<<<<<< HEAD
-    image: "Garlic-Knots.jpg"
-=======
     image: garlic
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 10,
@@ -232,11 +209,7 @@ const App = () => {
     cookTime: "0 minutes",
     serves: "20",
     category: "appetizers",
-<<<<<<< HEAD
-    image: "CapreseSkewers.jpg"
-=======
     image: skewer
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 11,
@@ -261,11 +234,7 @@ const App = () => {
     cookTime: "20 minutes",
     serves: "4",
     category: "mainCourse",
-<<<<<<< HEAD
-    image: "spaghetti.jpg"
-=======
     image: spaghetti
->>>>>>> 5398e4e01515192607d60e1b7d819bd596428cd9
   },
   { 
     id: 12,
